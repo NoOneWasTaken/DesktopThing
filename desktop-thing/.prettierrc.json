@@ -1,0 +1,26 @@
+{
+    "eslintIntegration": true,
+    "stylelintIntegration": true,
+    "endOfLine": "auto",
+    "embeddedLanguageFormatting": "auto",
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "semi": true,
+    "tabWidth": 2,
+    "useTabs": false,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "jsxBracketSameLine": false,
+    "arrowParens": "always",
+    "parser": "babel",
+    "overrides": [
+        {
+            "files": ["*.ts", "*.tsx"],
+            "options": {
+                "parser": "typescript"
+            }
+        }
+    ],
+    "rangeStart": 0,
+    "rangeEnd": 99999999
+}

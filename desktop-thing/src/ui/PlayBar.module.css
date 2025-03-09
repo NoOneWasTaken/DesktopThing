@@ -1,0 +1,59 @@
+.playbarContainer {
+    display: flex;
+    align-items: center;
+    width: 220px;
+}
+
+.playbar {
+    width: 170px;
+    height: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 2px;
+}
+
+.playbarRange {
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+
+    background-color: #4D4D4D;
+    appearance: none;
+
+    border-radius: 3px;
+}
+
+.playbarRange::-webkit-slider-thumb {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background-color: #D4D4D4;
+    border-radius: 50%;
+    z-index: 3;
+    margin-top: -3.5px;
+}
+
+.playbarRange::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #D4D4D4 var(--progress-width), #4D4D4D var(--progress-width));
+    height: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.timeLeft {
+    width: 25px;
+
+    font-size: 0.75rem;
+    color: #D4D4D4;
+}
+
+.timeRight {
+    width: 25px;
+
+    font-size: 0.75rem;
+    color: #D4D4D4;
+}

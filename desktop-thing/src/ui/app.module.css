@@ -1,0 +1,133 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.trackCover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer {
+    margin: 0 0 8px 0;
+    height: 64px;
+    width: 64px;
+
+    box-shadow: 0 0 4px 3px rgba(91, 91, 91, 0.15);
+
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.trackImage {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.count {
+    width: 60px;
+
+    font-size: 0.75rem;
+    font-weight: bold;
+
+    margin: 0 0 4px 3px;
+}
+
+.trackInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.trackName {
+    max-width: 175px;
+
+    font-size: 0.80rem;
+    margin: 0 0 2px 4px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.trackArtist {
+    max-width: 150px;
+
+    font-size: 0.75rem;
+    margin: 0 0 0 8px;
+    opacity: 80%;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.playheadContainer {
+    margin: 10px 0 0 5px;
+    height: 10px;
+}
+
+.playback {
+    margin: 12px 0 0 0;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    padding: 0 0 0 2px;
+
+    gap: 12px;
+}
+
+.controlButton {
+    height: 16px;
+    width: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+
+    padding: 0;
+    margin: 0;
+}
+
+.playButton {
+    height: 24px;
+    width: 24px;
+}
+
+.volumeControl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1;
+}
